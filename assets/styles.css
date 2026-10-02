@@ -41,6 +41,26 @@
   }
 }
 
+:root[data-theme="dark"] {
+  --bg: #141517;
+  --surface: #1c1d20;
+  --surface-2: #25262a;
+  --text: #ececec;
+  --muted: #a0a3a9;
+  --border: #2f3035;
+  --accent: #8aa8ff;
+  --accent-soft: #23304f;
+  --urgent: #ff7b72;
+  --soon: #f0a24a;
+  --ok: #6fcf97;
+  --est: #b9a0ee;
+  --est-soft: #2c2540;
+  --ieee: #6cc4f0;
+  --ieee-soft: #15303f;
+  --shadow: none;
+  color-scheme: dark;
+}
+
 * { box-sizing: border-box; }
 
 html { -webkit-text-size-adjust: 100%; }
