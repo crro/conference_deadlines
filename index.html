@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ML Conference Deadlines</title>
+  <meta name="description" content="Submission deadlines for machine learning conferences, workshops and challenges, including interdisciplinary venues in medical imaging, communications, materials, engineering and more.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏳</text></svg>">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <h1>ML Conference Deadlines</h1>
+        <p class="tagline">Paper, workshop and challenge deadlines for machine learning and its applications in medicine, communications, materials, engineering and beyond.</p>
+      </div>
+      <div class="search-row">
+        <label class="search">
+          <span class="visually-hidden">Search</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M10.5 3a7.5 7.5 0 0 1 5.96 12.06l4.24 4.24-1.4 1.4-4.24-4.24A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+          <input id="search" type="search" placeholder="Search venues, e.g. MICCAI, ICASSP, Seoul…" autocomplete="off">
+        </label>
+        <p class="clock" id="clock" aria-live="off"></p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <aside class="filters" id="filters" aria-label="Filters">
+      <section>
+        <h2>Deadline type</h2>
+        <div class="chips" id="category-chips"></div>
+      </section>
+      <section id="topic-sections"></section>
+      <section>
+        <h2>Options</h2>
+        <label class="toggle"><input type="checkbox" id="show-estimated" checked> Show estimated deadlines</label>
+        <label class="toggle"><input type="checkbox" id="show-past"> Show recently passed</label>
+        <label class="select">Sort by
+          <select id="sort">
+            <option value="deadline">Next deadline</option>
+            <option value="name">Name</option>
+            <option value="start">Conference date</option>
+          </select>
+        </label>
+        <button type="button" class="link-button" id="reset">Reset all filters</button>
+      </section>
+    </aside>
+
+    <section class="results" aria-label="Deadlines">
+      <div class="results-bar">
+        <p id="summary" aria-live="polite"></p>
+        <button type="button" class="filters-toggle" id="filters-toggle" aria-controls="filters" aria-expanded="false">Filters</button>
+      </div>
+      <div id="active-filters" class="active-filters"></div>
+      <ol id="list" class="cards"></ol>
+      <div id="past-wrap" hidden>
+        <h2 class="section-title">Recently passed</h2>
+        <ol id="past-list" class="cards"></ol>
+      </div>
+      <p id="empty" class="empty" hidden>No venues match these filters.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Dates marked <span class="badge badge-est">Estimated</span> are projected from the previous cycle and have not been announced yet. Always confirm on the official website.</p>
+    <p>Missing a venue or found a wrong date? Edit <code>data/conferences.json</code> and open a pull request. Seed data adapted from the MIT-licensed <a href="https://github.com/huggingface/ai-deadlines">huggingface/ai-deadlines</a> and <a href="https://github.com/ccfddl/ccf-deadlines">ccfddl/ccf-deadlines</a> projects.</p>
+  </footer>
+
+  <template id="card-template">
+    <li class="card">
+      <div class="card-main">
+        <div class="card-head">
+          <h3 class="card-title"><a class="title-link" target="_blank" rel="noopener"></a></h3>
+          <span class="badges"></span>
+        </div>
+        <p class="full-name"></p>
+        <p class="meta"><span class="where"></span><span class="when"></span></p>
+        <ul class="tags"></ul>
+        <details class="timeline">
+          <summary>All deadlines</summary>
+          <ul class="timeline-list"></ul>
+        </details>
+        <p class="note"></p>
+      </div>
+      <div class="card-side">
+        <p class="next-label"></p>
+        <p class="countdown"></p>
+        <p class="next-date"></p>
+        <p class="next-local"></p>
+        <button type="button" class="ics">Add to calendar</button>
+      </div>
+    </li>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

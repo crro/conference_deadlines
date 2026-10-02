@@ -1,0 +1,2418 @@
+[
+{
+  "id": "3dv26",
+  "series": "3DV",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on 3D Vision",
+  "link": "https://3dvconf.github.io/2026/",
+  "location": "Vancouver, BC, Canada",
+  "dates": "March 20-23, 2026",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2025-08-18 23:59", "tz": "UTC-7"}
+  ]
+},
+{
+  "id": "3dv27",
+  "series": "3DV",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on 3D Vision",
+  "link": "https://3dvconf.github.io/2027/",
+  "location": "Thessaloniki, Greece",
+  "dates": "April 6-9, 2027",
+  "start": "2027-04-06",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Regular-paper abstract registration and paper submission are both due Aug 28.)", "date": "2026-08-28 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Regular-paper abstract registration and paper submission are both due Aug 28.)", "date": "2026-08-28 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "aaai26",
+  "series": "AAAI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "AAAI Conference on Artificial Intelligence",
+  "link": "https://aaai.org/conference/aaai/aaai-26/",
+  "location": "Singapore, Singapore",
+  "dates": "January 20 - 27, 2026",
+  "start": "2026-01-20",
+  "topics": ["ai-general", "machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2025-07-25 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission deadline", "date": "2025-08-01 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "aaai27",
+  "series": "AAAI",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "AAAI Conference on Artificial Intelligence",
+  "link": "https://aaai.org/conference/aaai/aaai-27/",
+  "location": "Montréal, Canada",
+  "dates": "February 16 - 23, 2027",
+  "start": "2027-02-16",
+  "topics": ["ai-general", "machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2026-07-21 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-07-28 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "aamas26",
+  "series": "AAMAS",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Autonomous Agents and Multiagent Systems",
+  "link": "https://cyprusconferences.org/aamas2026",
+  "location": "Paphos, Cyprus",
+  "dates": "May 27-29, 2026",
+  "start": "2026-05-25",
+  "topics": ["ai-general", "reinforcement-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Main track)", "date": "2025-10-01 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Main track)", "date": "2025-10-08 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (AAAI track)", "date": "2025-11-17 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "aamas27",
+  "series": "AAMAS",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Autonomous Agents and Multiagent Systems",
+  "link": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+  "location": "Hanoi, Vietnam",
+  "dates": "May 3-7, 2027",
+  "start": "2027-05-03",
+  "topics": ["ai-general", "reinforcement-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-10-01 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-10-08 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "accv26",
+  "series": "ACCV",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Asian Conference on Computer Vision",
+  "link": "https://accv2026.org/",
+  "location": "Osaka, Japan",
+  "dates": "December 16-18, 2026",
+  "topics": ["computer-vision"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-07-03 23:59", "tz": "UTC"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-07-05 23:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "acl26",
+  "series": "ACL",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Annual Meeting of the Association for Computational Linguistics",
+  "link": "https://2026.aclweb.org/",
+  "location": "San Diego, California, United States (Hybrid)",
+  "dates": "July 5-7, 2026",
+  "start": "2026-07-02",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (ARR October cycle)", "date": "2025-10-06 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (ARR January cycle)", "date": "2026-01-05 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (ARR commitment; reviewed papers only)", "date": "2026-03-14 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "acl27",
+  "series": "ACL",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "Annual Meeting of the Association for Computational Linguistics",
+  "link": "https://2027.aclweb.org/",
+  "location": "Kyoto, Japan",
+  "dates": "August 17-22, 2027",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (ARR Submission)", "date": "2027-01-04 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "mm26",
+  "series": "ACM MM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM Multimedia",
+  "link": "https://2026.acmmm.org/",
+  "location": "Rio de Janeiro, Brazil",
+  "dates": "November 10-14, 2026",
+  "start": "2026-11-10",
+  "topics": ["computer-vision", "speech-audio"],
+  "deadlines": [
+    {"type": "abstract", "label": "Contribution registration", "date": "2026-03-25 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Contribution submission", "date": "2026-04-01 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "mobicom26",
+  "series": "ACM MobiCom",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM Annual International Conference On Mobile Computing And Networking",
+  "link": "https://sigmobile.org/mobicom/2026/",
+  "location": "Austin, Texas, USA",
+  "dates": "October 26-29, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Summer Deadlines)", "date": "2025-08-27 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Summer Deadlines)", "date": "2025-09-03 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (Winter Deadlines)", "date": "2026-03-06 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Winter Deadlines)", "date": "2026-03-13 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "mobicom27",
+  "series": "ACM MobiCom",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM Annual International Conference On Mobile Computing And Networking",
+  "link": "https://www.sigmobile.org/mobicom/2027/",
+  "location": "TBA",
+  "dates": "Oct 18-22, 2027",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Summer Deadlines)", "date": "2026-08-26 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Summer Deadlines)", "date": "2026-09-02 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "mobihoc26",
+  "series": "ACM MobiHoc",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Symposium on Mobile Ad Hoc Networking and Computing",
+  "link": "https://www.sigmobile.org/mobihoc/2026/",
+  "location": "Tokyo, Japan",
+  "dates": "November 23-25, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Registration per CFP; full cutoff unresolved)", "date": "2026-04-13 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "mobisys26",
+  "series": "ACM MobiSys",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM International Conference on Mobile Systems, Applications, and Services",
+  "link": "https://www.sigmobile.org/mobisys/2026/",
+  "location": "Cambridge, UK",
+  "dates": "June 22-24, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-11-28 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-12-05 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "mobisys27",
+  "series": "ACM MobiSys",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM International Conference on Mobile Systems, Applications, and Services",
+  "link": "https://www.sigmobile.org/mobisys/2027/",
+  "location": "Ho Chi Minh City, Vietnam",
+  "dates": "June 21-25, 2027",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-11-27 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-12-04 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "sensys26",
+  "series": "ACM SenSys",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM Conference on Embedded Networked Sensor Systems",
+  "link": "https://sensys.acm.org/2026/",
+  "location": "Saint-Malo, France",
+  "dates": "May 12-14, 2026",
+  "topics": ["communications", "engineering-control"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (1st deadline)", "date": "2025-07-01 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (1st deadline)", "date": "2025-07-01 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (2nd deadline)", "date": "2025-11-06 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (2nd deadline)", "date": "2025-11-13 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "sensys27",
+  "series": "ACM SenSys",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM Conference on Embedded Networked Sensor Systems",
+  "link": "https://sensys.acm.org/2027/",
+  "location": "Boulder, CO, USA",
+  "dates": "May 17-20, 2027",
+  "topics": ["communications", "engineering-control"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (1st deadline)", "date": "2026-05-29 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (1st deadline)", "date": "2026-06-05 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (2nd deadline)", "date": "2026-10-29 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (2nd deadline)", "date": "2026-11-05 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "sigcomm26",
+  "series": "ACM SIGCOMM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+  "link": "https://conferences.sigcomm.org/sigcomm/2026/",
+  "location": "Denver, Colorado, USA",
+  "dates": "August 18-21, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-01-30 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-02-06 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "sigcomm27",
+  "series": "ACM SIGCOMM",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+  "link": "https://conferences.sigcomm.org/sigcomm/2027/",
+  "location": "Bangkok, Thailand",
+  "dates": "August 8 - 12, 2027",
+  "topics": ["communications"],
+  "deadlines": []
+},
+{
+  "id": "sigspatial26",
+  "series": "ACM SIGSPATIAL",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+  "link": "https://sigspatial2026.sigspatial.org/",
+  "location": "Riverside, CA, USA",
+  "dates": "November 3-6, 2026",
+  "topics": ["earth-climate", "data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-05-29 23:59", "tz": "UTC-7"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-06-05 23:59", "tz": "UTC-7"}
+  ]
+},
+{
+  "id": "acml26",
+  "series": "ACML",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Asian Conference on Machine Learning",
+  "link": "https://www.acml-conf.org/2026/",
+  "location": "Melbourne, Australia",
+  "dates": "TBD",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (Journal Track)", "date": "2026-06-20 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Conference Track)", "date": "2026-07-05 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "aistats26",
+  "series": "AISTATS",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Artificial Intelligence and Statistics",
+  "link": "https://virtual.aistats.org/Conferences/2026",
+  "location": "Tangier, Morocco",
+  "dates": "May 2-5, 2026",
+  "start": "2026-05-02",
+  "topics": ["machine-learning", "learning-theory"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2025-09-25 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2025-10-02 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "aistats27",
+  "series": "AISTATS",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Artificial Intelligence and Statistics",
+  "link": "https://virtual.aistats.org/Conferences/2027",
+  "location": "Montréal, Canada",
+  "dates": "May 3-6, 2027",
+  "topics": ["machine-learning", "learning-theory"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-09-29 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-10-06 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "alt26",
+  "series": "ALT",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Algorithmic Learning Theory",
+  "link": "https://algorithmiclearningtheory.org/alt2026/",
+  "location": "Toronto, Canada",
+  "dates": "February 23-26, 2026",
+  "start": "2026-02-23",
+  "topics": ["learning-theory"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2025-10-02 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "alt27",
+  "series": "ALT",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Algorithmic Learning Theory",
+  "link": "https://algorithmiclearningtheory.org/alt2027/",
+  "location": "Leiden, Netherlands",
+  "dates": "March 9-12, 2027",
+  "topics": ["learning-theory"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-10-12 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "apbc26",
+  "series": "APBC",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Asia Pacific Bioinformatics Conference",
+  "link": "https://www.apbc2026.com/home",
+  "location": "Hsinchu, Taiwan， China",
+  "dates": "October 22-24, 2026",
+  "topics": ["comp-bio"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-07-17 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "bmvc26",
+  "series": "BMVC",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "British Machine Vision Conference",
+  "link": "https://bmvc2026.bmva.org/",
+  "location": "Lancaster, UK",
+  "dates": "November 23-26, 2026",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-05-22 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-05-29 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "chi26",
+  "series": "CHI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The ACM Conference on Human Factors in Computing Systems",
+  "link": "https://chi2026.acm.org/",
+  "location": "Barcelona, Spain",
+  "dates": "April 13 - April 17, 2026",
+  "start": "2026-04-13",
+  "topics": ["hci"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract/Metadata Due", "date": "2025-09-04 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full Paper Due", "date": "2025-09-11 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "chi27",
+  "series": "CHI",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The ACM Conference on Human Factors in Computing Systems",
+  "link": "https://chi2027.acm.org/",
+  "location": "Pittsburgh, United States",
+  "dates": "May 10 - May 14, 2027",
+  "start": "2027-05-10",
+  "topics": ["hci"],
+  "deadlines": [
+    {"type": "paper", "label": "Full Paper Due", "date": "2026-09-10 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "chil26",
+  "series": "CHIL",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "AHLI Conference on Health, Inference, and Learning",
+  "link": "https://chil.ahli.cc/submit/call-for-papers/",
+  "location": "Seattle, USA",
+  "dates": "June 28-30, 2026",
+  "start": "2026-06-28",
+  "topics": ["healthcare", "machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper Submission", "date": "2026-02-04 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "cikm26",
+  "series": "CIKM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Conference on Information and Knowledge Management",
+  "link": "https://cikm2026.diag.uniroma1.it/",
+  "location": "Rome, Italy",
+  "dates": "November 7-11, 2026",
+  "start": "2026-11-07",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2026-05-16 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2026-05-23 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "cogsci26",
+  "series": "CogSci",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Annual Meeting of the Cognitive Science Society",
+  "link": "https://cognitivesciencesociety.org/cogsci-2026/",
+  "location": "Rio de Janeiro, Brazil (Hybrid)",
+  "dates": "July 23-25, 2026",
+  "topics": ["ai-general"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-02-02 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "coling27",
+  "series": "COLING",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Computational Linguistics",
+  "link": "https://2027.coling-iccl.org/",
+  "location": "Macau SAR, China",
+  "dates": "May 9-14, 2027",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (ARR Submission)", "date": "2026-10-12 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (COLING commitment after ARR meta-reviews; reviewed papers only)", "date": "2026-12-23 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "collas26",
+  "series": "CoLLAs",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Fifth Conference on Lifelong Learning Agents",
+  "link": "https://lifelong-ml.cc",
+  "location": "Bucharest, Romania",
+  "dates": "September 14-17, 2026",
+  "start": "2026-09-14",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract registration deadline", "date": "2026-04-10 11:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-04-15 11:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "colm26",
+  "series": "COLM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Conference on Language Modeling",
+  "link": "https://colmweb.org/",
+  "location": "San Francisco, USA",
+  "dates": "October 6-9, 2026",
+  "start": "2026-10-06",
+  "topics": ["nlp", "machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-03-26 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-03-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "colt26",
+  "series": "COLT",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Annual Conference on Learning Theory",
+  "link": "https://learningtheory.org/colt2026/",
+  "location": "San Diego, United States",
+  "dates": "June 29 - July 3, 2026",
+  "start": "2026-06-29",
+  "topics": ["learning-theory"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-02-04 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "colt27",
+  "series": "COLT",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "Annual Conference on Learning Theory",
+  "link": "https://learningtheory.org/colt2027/",
+  "location": "Tokyo, Japan",
+  "dates": "June 28 - July 2, 2027",
+  "topics": ["learning-theory"],
+  "deadlines": []
+},
+{
+  "id": "conll26",
+  "series": "CoNLL",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The SIGNLL Conference on Computational Natural Language Learning",
+  "link": "https://conll.org/",
+  "location": "San Diego, USA",
+  "dates": "July 3-4, 2026",
+  "start": "2026-07-03",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-02-19 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "corl26",
+  "series": "CoRL",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The Conference on Robot Learning",
+  "link": "https://www.corl.org/",
+  "location": "Austin, United States",
+  "dates": "November 9-12, 2026",
+  "start": "2026-11-09",
+  "topics": ["robotics", "machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2026-05-26 11:59", "tz": "UTC"},
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-05-29 11:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "cpal26",
+  "series": "CPAL",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The Conference on Parsimony and Learning",
+  "link": "https://cpal.cc/",
+  "location": "Tübingen, Germany",
+  "dates": "March 23-26, 2026",
+  "start": "2026-03-23",
+  "topics": ["machine-learning", "optimization"],
+  "deadlines": [
+    {"type": "paper", "label": "Tutorial proposals deadline", "date": "2025-12-10 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission deadline", "date": "2025-12-12 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Rising Stars Award applications", "date": "2025-12-15 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Spotlight Track submission deadline", "date": "2026-01-15 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "cpal27",
+  "series": "CPAL",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The Conference on Parsimony and Learning",
+  "link": "https://cpal.cc/",
+  "location": "Tokyo, Japan",
+  "dates": "March 23-26, 2027",
+  "topics": ["machine-learning", "optimization"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-11-23 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-12-05 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "cvpr26",
+  "series": "CVPR",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "link": "https://cvpr.thecvf.com/Conferences/2026/CallForPapers",
+  "location": "Denver, USA",
+  "dates": "June 3-7, 2026",
+  "start": "2026-06-03",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2025-11-07 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2025-11-13 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "cvpr27",
+  "series": "CVPR",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "link": "https://cvpr.thecvf.com/Conferences/2027",
+  "location": "Seattle, WA, United States",
+  "dates": "June 20-25, 2027",
+  "start": "2027-06-19",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-11-10 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-11-16 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "eacl26",
+  "series": "EACL",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The Annual Conference of the European Chapter of the Association for Computational Linguistics",
+  "link": "https://2026.eacl.org/",
+  "location": "Rabat, Morocco (Hybrid)",
+  "dates": "March 25-27, 2026",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (ARR Submission)", "date": "2025-10-06 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Commitment deadline for papers reviewed by ARR)", "date": "2025-12-14 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "eacl27",
+  "series": "EACL",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The Annual Conference of the European Chapter of the Association for Computational Linguistics",
+  "link": "https://2027.eacl.org/",
+  "location": "Athens, Greece",
+  "dates": "March 9-14, 2027",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (ARR Submission)", "date": "2026-08-03 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (EACL commitment after ARR meta-reviews; reviewed papers only)", "date": "2026-10-11 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ecai26",
+  "series": "ECAI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "European Conference on Artificial Intelligence",
+  "link": "https://2026.ijcai.org/",
+  "location": "Bremen, Germany",
+  "dates": "August 15-21, 2026",
+  "start": "2026-08-15",
+  "topics": ["ai-general"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2026-01-12 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2026-01-19 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ecai27",
+  "series": "ECAI",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "European Conference on Artificial Intelligence",
+  "link": "https://ecai2027.org/",
+  "location": "Athens, Greece",
+  "dates": "October 2-7, 2027",
+  "topics": ["ai-general"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2027-04-14 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "eccv26",
+  "series": "ECCV",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "European Conference on Computer Vision",
+  "link": "https://eccv.ecva.net/Conferences/2026",
+  "location": "Malmö, Sweden",
+  "dates": "September 8-12, 2026",
+  "start": "2026-09-08",
+  "topics": ["computer-vision"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "paper", "label": "Tutorial Proposal Submission", "date": "2026-02-15 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Workshop Proposal Submission", "date": "2026-02-27 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-03-05 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "AI Art Submission", "date": "2026-06-14 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ecir26",
+  "series": "ECIR",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "European Conference on Information Retrieval",
+  "link": "https://ecir2026.eu/",
+  "location": "Delft, The Netherlands",
+  "dates": "March 29 - April 2, 2026",
+  "start": "2026-03-29",
+  "topics": ["data-mining", "nlp"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract deadline", "date": "2025-09-25 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission deadline", "date": "2025-10-02 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ecir27",
+  "series": "ECIR",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "European Conference on Information Retrieval",
+  "link": "https://www.ecir2027.co.uk/",
+  "location": "Southampton, United Kingdom",
+  "dates": "March 21 - March 25, 2027",
+  "start": "2027-03-21",
+  "topics": ["data-mining", "nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Workshop proposal deadline", "date": "2026-09-07 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Full paper abstract deadline", "date": "2026-09-21 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2026-10-05 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Short paper abstract deadline", "date": "2026-10-05 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Short paper submission deadline", "date": "2026-10-12 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Reproducibility abstract deadline", "date": "2026-10-12 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Reproducibility paper submission deadline", "date": "2026-10-19 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Doctoral Consortium abstract deadline", "date": "2026-10-26 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Demo / Doctoral Consortium paper / Industry Day / tutorial proposal / resource paper deadline", "date": "2026-11-02 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ecmlpkdd26",
+  "series": "ECML PKDD",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+  "link": "https://ecmlpkdd.org/2026/",
+  "location": "Naples, Italy",
+  "dates": "September 7-11, 2026",
+  "start": "2026-09-07",
+  "topics": ["machine-learning", "data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Journal track, cycle 1; CMT abstract and journal manuscript)", "date": "2025-10-30 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Journal track, cycle 1; CMT abstract and journal manuscript)", "date": "2025-10-30 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (Journal track, cycle 2; CMT abstract and journal manuscript)", "date": "2026-01-15 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Journal track, cycle 2; CMT abstract and journal manuscript)", "date": "2026-01-15 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (Research track)", "date": "2026-03-05 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Research track)", "date": "2026-03-12 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ecmlpkdd27",
+  "series": "ECML PKDD",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+  "link": "https://ecmlpkdd.org/2027/",
+  "location": "Eindhoven, The Netherlands",
+  "dates": "September 20-24, 2027",
+  "topics": ["machine-learning", "data-mining"],
+  "deadlines": []
+},
+{
+  "id": "emnlp26",
+  "series": "EMNLP",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The annual Conference on Empirical Methods in Natural Language Processing",
+  "link": "https://2026.emnlp.org/",
+  "location": "Budapest, Hungary (Hybrid)",
+  "dates": "October 25-27, 2026",
+  "start": "2026-10-24",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (ARR Submission)", "date": "2026-05-25 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Commitment deadline for papers with ARR reviews and meta-reviews)", "date": "2026-08-02 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "esann26",
+  "series": "ESANN",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
+  "link": "https://www.esann.org/",
+  "location": "Bruges, Belgium",
+  "dates": "April 22 - 24, 2026",
+  "start": "2026-04-22",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2025-11-26 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "esann27",
+  "series": "ESANN",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
+  "link": "https://www.esann.org/",
+  "location": "Bruges, Belgium and Online",
+  "dates": "April 21 - 23, 2027",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-11-18 23:59", "tz": "UTC-8"}
+  ]
+},
+{
+  "id": "eurographics26",
+  "series": "Eurographics",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The 47th Annual Conference of the European Association for Computer Graphics",
+  "link": "https://eg2026.github.io/",
+  "location": "Aachen, Germany",
+  "dates": "May 4 - 8, 2026",
+  "start": "2026-05-04",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract and submission form deadline", "date": "2025-09-22 23:59", "tz": "UTC"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2025-09-26 23:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "eurographics27",
+  "series": "Eurographics",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The 48th Annual Conference of the European Association for Computer Graphics",
+  "link": "https://eg2027.isti.cnr.it/",
+  "location": "Lucca, Italy",
+  "dates": "May 10 - 14, 2027",
+  "start": "2027-05-10",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract and submission form deadline", "date": "2026-09-25 23:59", "tz": "UTC"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2026-10-01 23:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "eusipco26",
+  "series": "EUSIPCO",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "European Signal Processing Conference",
+  "link": "https://eusipco2026.org/",
+  "location": "Bruges, Belgium",
+  "dates": "August 31 - September 4, 2026",
+  "topics": ["signal-processing"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-02-13 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "eusipco27",
+  "series": "EUSIPCO",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "European Signal Processing Conference",
+  "link": "https://eusipco2027.de/",
+  "location": "Darmstadt, Germany",
+  "dates": "August 30 - September 3, 2027",
+  "topics": ["signal-processing"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2027-02-06 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "facct26",
+  "series": "FAccT",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM Conference on Fairness, Accountability, and Transparency",
+  "link": "https://facctconference.org/2026/index.html",
+  "location": "Montreal, Canada",
+  "dates": "June 25 - June 28, 2026",
+  "start": "2026-06-25",
+  "topics": ["trustworthy-ml"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-01-08 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-01-13 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Revision Deadline", "date": "2026-03-25 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "fg26",
+  "series": "FG",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Automatic Face and Gesture Recognition",
+  "link": "https://fg2026.ieee-biometrics.org/",
+  "location": "Kyoto, Japan",
+  "dates": "May 25-29, 2026",
+  "start": "2026-05-25",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission (Round 1)", "date": "2025-09-25 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission (Round 1) - Extended", "date": "2025-10-06 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract Submission (Round 2)", "date": "2026-01-09 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission (Round 2) - Extended", "date": "2026-01-25 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "fg27",
+  "series": "FG",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Automatic Face and Gesture Recognition",
+  "link": "https://fg2027.ieee-biometrics.org/",
+  "location": "Marrakesh, Morocco",
+  "dates": "April 26-30, 2027",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-10-09 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-10-16 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "gecco26",
+  "series": "GECCO",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Genetic and Evolutionary Computation Conference",
+  "link": "https://gecco-2026.sigevo.org/HomePage",
+  "location": "San José, Costa Rica (hybrid)",
+  "dates": "July 15-17, 2026",
+  "topics": ["optimization"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-01-19 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-01-26 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "gecco27",
+  "series": "GECCO",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "Genetic and Evolutionary Computation Conference",
+  "link": "https://gecco-2027.sigevo.org/HomePage",
+  "location": "Kraków, Poland",
+  "dates": "July 12-16, 2027",
+  "topics": ["optimization"],
+  "deadlines": []
+},
+{
+  "id": "icaif26",
+  "series": "ICAIF",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on AI in Finance",
+  "link": "https://icaif2026.org/index.html",
+  "location": "Milan, Italy",
+  "dates": "November 16-17, 2026",
+  "topics": ["finance-econ"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-08-09 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icann26",
+  "series": "ICANN",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "35th International Conference on Artificial Neural Networks",
+  "link": "https://e-nns.org/icann2026/",
+  "location": "Padua, Italy",
+  "dates": "September 14-17, 2026",
+  "start": "2026-09-14",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract and Full Paper Submission", "date": "2026-03-30 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full Paper Submission", "date": "2026-03-30 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icaps26",
+  "series": "ICAPS",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Automated Planning and Scheduling",
+  "link": "https://icaps26.icaps-conference.org/",
+  "location": "Dublin, Ireland",
+  "dates": "June 27 - July 2, 2026",
+  "topics": ["ai-general"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-12-02 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-12-08 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icaps27",
+  "series": "ICAPS",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Automated Planning and Scheduling",
+  "link": "https://icaps27.icaps-conference.org/",
+  "location": "Columbia, SC, USA",
+  "dates": "June 27 - July 2, 2027",
+  "topics": ["ai-general"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-12-07 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-12-14 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icassp26",
+  "series": "ICASSP",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Acoustics, Speech and Signal Processing",
+  "link": "https://2026.ieeeicassp.org",
+  "location": "Barcelona, Spain",
+  "dates": "May 4-8, 2026",
+  "start": "2025-05-04",
+  "topics": ["signal-processing", "speech-audio"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper Submission", "date": "2025-09-18 08:59", "tz": "UTC+2"}
+  ]
+},
+{
+  "id": "icassp27",
+  "series": "ICASSP",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+  "link": "https://2027.ieeeicassp.org/",
+  "location": "Toronto, Canada",
+  "dates": "May 16-21, 2027",
+  "topics": ["signal-processing", "speech-audio"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-09-23 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icassp28",
+  "series": "ICASSP",
+  "year": 2028,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+  "link": "https://2028.ieeeicassp.org/",
+  "location": "Tokyo, Japan",
+  "dates": "May 28-June 2, 2028",
+  "topics": ["signal-processing", "speech-audio"],
+  "deadlines": []
+},
+{
+  "id": "iccv25",
+  "series": "ICCV",
+  "year": 2025,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Computer Vision",
+  "link": "https://iccv.thecvf.com/Conferences/2025",
+  "location": "Honolulu, Hawaii",
+  "dates": "October 19-25, 2025",
+  "start": "2025-10-19",
+  "topics": ["computer-vision"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-03-04 09:59", "tz": "UTC"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-03-08 09:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "iccv27",
+  "series": "ICCV",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Computer Vision",
+  "link": "https://iccv.thecvf.com/Conferences/2027",
+  "location": "Hong Kong, China",
+  "dates": "October 2-8, 2027",
+  "topics": ["computer-vision"],
+  "cycle": 2,
+  "deadlines": []
+},
+{
+  "id": "icdar26",
+  "series": "ICDAR",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Document Analysis and Recognition",
+  "link": "https://icdar2026.org/",
+  "location": "Vienna, Austria",
+  "dates": "August 31-September 2, 2026",
+  "start": "2026-08-30",
+  "topics": ["computer-vision"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (Journal track)", "date": "2025-11-14 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (Conference track)", "date": "2026-02-13 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Conference track)", "date": "2026-02-27 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icdar27",
+  "series": "ICDAR",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Document Analysis and Recognition",
+  "link": "https://icdar2027.org/",
+  "location": "Kuala Lumpur, Malaysia",
+  "dates": "August 18 - 22, 2027",
+  "start": "2027-08-18",
+  "topics": ["computer-vision"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2027-01-31 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2027-02-20 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icdm26",
+  "series": "ICDM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Data Mining",
+  "link": "http://icdm2026.neu.edu.cn/",
+  "location": "Shenyang, China",
+  "dates": "November 12 - 15, 2026",
+  "start": "2026-11-12",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-05-30 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full Paper Submission", "date": "2026-06-06 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icip26",
+  "series": "ICIP",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The IEEE International Conference on Image Processing",
+  "link": "https://2026.ieeeicip.org/",
+  "location": "Tampere, Finland",
+  "dates": "September 14-16, 2026",
+  "topics": ["signal-processing", "computer-vision"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-02-04 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "iclr26",
+  "series": "ICLR",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The Fourteenth International Conference on Learning Representations",
+  "link": "https://iclr.cc/Conferences/2026",
+  "location": "Rio de Janeiro, Brazil",
+  "dates": "April 23-27, 2026",
+  "start": "2026-04-23",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2025-09-19 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2025-09-24 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "iclr27",
+  "series": "ICLR",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The Fifteenth International Conference on Learning Representations",
+  "link": "https://iclr.cc/Conferences/2027",
+  "location": "San Francisco, United States",
+  "dates": "April 26-30, 2027",
+  "start": "2027-04-26",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-09-18 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-09-25 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icme26",
+  "series": "ICME",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The IEEE International Conference on Multimedia & Expo",
+  "link": "https://2026.ieeeicme.org/",
+  "location": "Bangkok, Thailand",
+  "dates": "July 5-9, 2026",
+  "topics": ["signal-processing", "computer-vision"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2025-12-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icme27",
+  "series": "ICME",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The IEEE International Conference on Multimedia & Expo",
+  "link": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+  "location": "Xiamen, China",
+  "dates": "July 13-17, 2027",
+  "topics": ["signal-processing", "computer-vision"],
+  "deadlines": []
+},
+{
+  "id": "icml26",
+  "series": "ICML",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Machine Learning",
+  "link": "https://icml.cc/Conferences/2026/CallForPapers",
+  "location": "Seoul, South Korea",
+  "dates": "July 6-11, 2026",
+  "start": "2026-07-06",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-01-23 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-01-28 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icmla26",
+  "series": "ICMLA",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Machine Learning and Applications",
+  "link": "https://www.icmla-conference.org/icmla26/",
+  "location": "Oakland Center, Rochester, Michigan, USA",
+  "dates": "October 5-7, 2026",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (Main Conference Papers DDL.)", "date": "2026-05-31 23:59", "tz": "UTC-7"}
+  ]
+},
+{
+  "id": "iconip26",
+  "series": "ICONIP",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Neural Information Processing",
+  "link": "https://www.iconip2026.org/",
+  "location": "Melbourne, Australia",
+  "dates": "November 23-27, 2026",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-05-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icpr26",
+  "series": "ICPR",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Pattern Recognition",
+  "link": "https://icpr2026.org/",
+  "location": "Lyon, France",
+  "dates": "August 17-20, 2026",
+  "topics": ["computer-vision", "machine-learning"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-01-10 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icra26",
+  "series": "ICRA",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Robotics and Automation",
+  "link": "https://2026.ieee-icra.org/",
+  "location": "Vienna, Austria",
+  "dates": "June 1 - June 5, 2026",
+  "start": "2026-06-01",
+  "topics": ["robotics", "engineering-control"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper Submission", "date": "2025-09-15 23:59", "tz": "UTC-7"}
+  ]
+},
+{
+  "id": "icra27",
+  "series": "ICRA",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Robotics and Automation",
+  "link": "https://2027.ieee-icra.org/",
+  "location": "Seoul, South Korea",
+  "dates": "May 24 - 28, 2027",
+  "start": "2027-05-24",
+  "topics": ["robotics", "engineering-control"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper Submission", "date": "2026-09-15 23:59", "tz": "UTC-7"}
+  ]
+},
+{
+  "id": "bibm26",
+  "series": "IEEE BIBM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Bioinformatics and Biomedicine",
+  "link": "https://ieeebibm.org/BIBM2026/",
+  "location": "Dallas, USA",
+  "dates": "Dec 1-4, 2026",
+  "topics": ["comp-bio", "healthcare"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-07-05 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "bigdata26",
+  "series": "IEEE BigData",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Big Data",
+  "link": "https://bigdataieee.org/BigData2026/",
+  "location": "Phoenix, Arizona, United State",
+  "dates": "December 14-17, 2026",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-08-21 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "cec26",
+  "series": "IEEE CEC",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE Congress on Evolutionary Computation",
+  "link": "https://attend.ieee.org/wcci-2026/",
+  "location": "Maastricht, Netherlands",
+  "dates": "June 21-26, 2026",
+  "start": "2026-06-21",
+  "topics": ["optimization"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-01-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "cec27",
+  "series": "IEEE CEC",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE Congress on Evolutionary Computation",
+  "link": "http://ieeecec.org",
+  "location": "Edinburgh, United Kingdom",
+  "dates": "July 25-28, 2027",
+  "start": "2027-07-25",
+  "topics": ["optimization"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2027-01-15 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "globecom26",
+  "series": "IEEE GLOBECOM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE Global Communications Conference",
+  "link": "https://globecom2026.ieee-globecom.org/",
+  "location": "Macao, China",
+  "dates": "December 7-11, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-05-03 23:59", "tz": "UTC-4"}
+  ]
+},
+{
+  "id": "icc26",
+  "series": "IEEE ICC",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Communications",
+  "link": "https://icc2026.ieee-icc.org",
+  "location": "Glasgow, Scotland, UK",
+  "dates": "May 24-28, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2025-11-10 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "icc27",
+  "series": "IEEE ICC",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Communications",
+  "link": "https://icc2027.ieee-icc.org",
+  "location": "Washington, DC, USA",
+  "dates": "May 30 - June 3, 2027",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-10-02 23:59", "tz": "UTC-4"}
+  ]
+},
+{
+  "id": "infocom26",
+  "series": "IEEE INFOCOM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Computer Communications",
+  "link": "https://infocom2026.ieee-infocom.org/",
+  "location": "Tokyo, Japan",
+  "dates": "May 19-21, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-07-24 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-07-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "infocom27",
+  "series": "IEEE INFOCOM",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Computer Communications",
+  "link": "https://infocom2027.ieee-infocom.org/",
+  "location": "Honolulu, HI, USA",
+  "dates": "May 24 - 27, 2027",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-07-24 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-07-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "secon26",
+  "series": "IEEE SECON",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Sensing, Communication, and Networking",
+  "link": "https://secon2026.ieee-secon.org/important-dates",
+  "location": "Pisa, Italy",
+  "dates": "June 3-5, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-12-30 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-12-30 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "secon27",
+  "series": "IEEE SECON",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Conference on Sensing, Communication, and Networking",
+  "link": "https://secon2027.ieee-secon.org/",
+  "location": "Lisbon, Portugal",
+  "dates": "May 5-7, 2027",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-11-30 23:59", "tz": "UTC-5"}
+  ]
+},
+{
+  "id": "wcnc26",
+  "series": "IEEE WCNC",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE Wireless Communications and Networking Conference",
+  "link": "https://wcnc2026.ieee-wcnc.org/group/21",
+  "location": "Kuala Lumpur, Malaysia",
+  "dates": "April 14-16, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2025-10-26 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "wcnc27",
+  "series": "IEEE WCNC",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE Wireless Communications and Networking Conference",
+  "link": "https://wcnc2027.ieee-wcnc.org/",
+  "location": "Panama City, Panama",
+  "dates": "April 5-8, 2027",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (Technical papers; official IEEE ComSoc calendar date. Clock 23:59:00 and timezone AoE are repository defaults, not published cutoff precision.)", "date": "2026-09-15 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "wowmom26",
+  "series": "IEEE WoWMoM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+  "link": "https://www.cs.unibo.it/wowmom2026/",
+  "location": "Bologna, Italy",
+  "dates": "June 17-19, 2026",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-12-05 23:59", "tz": "UTC-5"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-12-15 23:59", "tz": "UTC-5"}
+  ]
+},
+{
+  "id": "wowmom27",
+  "series": "IEEE WoWMoM",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+  "link": "https://wowmom2027.dii.unipi.it/index.html",
+  "location": "Irvine, California, USA",
+  "dates": "June 21-24, 2027",
+  "topics": ["communications"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-12-01 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ijcai26",
+  "series": "IJCAI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Joint Conference on Artificial Intelligence",
+  "link": "https://2026.ijcai.org/",
+  "location": "Bremen, Germany",
+  "dates": "August 15-21, 2026",
+  "start": "2026-08-15",
+  "topics": ["ai-general", "machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2026-01-12 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2026-01-19 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ijcai27",
+  "series": "IJCAI",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Joint Conference on Artificial Intelligence",
+  "link": "https://www.ijcai.org/node/8",
+  "location": "Kyoto, Japan and Hengqin, China",
+  "dates": "August 7-13 and August 15-17, 2027",
+  "topics": ["ai-general", "machine-learning"],
+  "deadlines": []
+},
+{
+  "id": "ijcnn26",
+  "series": "IJCNN",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Joint Conference on Neural Networks",
+  "link": "https://attend.ieee.org/wcci-2026/",
+  "location": "Maastricht, Netherlands",
+  "dates": "June 21 - 26, 2026",
+  "start": "2026-06-21",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper Submission", "date": "2026-01-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ijcnn27",
+  "series": "IJCNN",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Joint Conference on Neural Networks",
+  "link": "https://ijcnn.org/2027",
+  "location": "Cape Town, South Africa",
+  "dates": "June 14 - 18, 2027",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2027-01-31 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "interspeech26",
+  "series": "INTERSPEECH",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Interspeech",
+  "link": "https://interspeech2026.org",
+  "location": "Sydney, Australia",
+  "dates": "September 28-October 1, 2026",
+  "start": "2026-09-28",
+  "topics": ["speech-audio", "signal-processing"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-02-25 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "interspeech27",
+  "series": "INTERSPEECH",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "Conference of the International Speech Communication Association",
+  "link": "https://interspeech2027.org/",
+  "location": "São Paulo, Brazil",
+  "dates": "August 29 - September 2, 2027",
+  "topics": ["speech-audio", "signal-processing"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2027-02-09 23:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "iros26",
+  "series": "IROS",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+  "link": "https://2026.ieee-iros.org/",
+  "location": "Pittsburgh, USA",
+  "dates": "September 27 - October 1, 2026",
+  "start": "2026-09-27",
+  "topics": ["robotics", "engineering-control"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-03-02 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper video submission deadline", "date": "2026-03-07 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "iros27",
+  "series": "IROS",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+  "link": "https://2027.ieee-iros.org/",
+  "location": "Florence, Italy",
+  "dates": "September 26 - October 1, 2027",
+  "topics": ["robotics", "engineering-control"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (Paper submission deadline: March 1, 2027; exact cutoff time and timezone not specified on the official IEEE RAS event page)", "date": "2027-03-01 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "isit26",
+  "series": "ISIT",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE International Symposium on Information Theory",
+  "link": "https://2026.ieee-isit.org/",
+  "location": "Guangzhou, China",
+  "dates": "June 28 - July 3, 2026",
+  "topics": ["communications", "learning-theory"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-01-16 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "isit27",
+  "series": "ISIT",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE International Symposium on Information Theory",
+  "link": "https://2027.ieee-isit.org/",
+  "location": "Sorrento, Italy",
+  "dates": "June 27 - July 2, 2027",
+  "topics": ["communications", "learning-theory"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2027-01-10 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ismb26",
+  "series": "ISMB",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Intelligent Systems for Molecular Biology",
+  "link": "https://www.iscb.org/ismb2026/",
+  "location": "Washington, DC, USA (Hybrid)",
+  "dates": "July 12-16, 2026",
+  "topics": ["comp-bio"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-01-20 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "ismb27",
+  "series": "ISMB",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Intelligent Systems for Molecular Biology",
+  "link": "https://www.iscb.org/ismbeccb2027/",
+  "location": "Copenhagen, Denmark",
+  "dates": "July 18-22, 2027",
+  "topics": ["comp-bio"],
+  "deadlines": []
+},
+{
+  "id": "iui26",
+  "series": "IUI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM Conference on Intelligent User Interfaces",
+  "link": "https://iui.acm.org/2026/",
+  "location": "Limassol, Cyprus",
+  "dates": "July 13-16, 2026",
+  "start": "2026-07-13",
+  "topics": ["hci", "machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-10-03 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full paper submission", "date": "2025-10-10 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "iui27",
+  "series": "IUI",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM Conference on Intelligent User Interfaces",
+  "link": "https://iui.hosting.acm.org/2027/",
+  "location": "Helsinki, Finland",
+  "dates": "February 8-11, 2027",
+  "topics": ["hci", "machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-08-13 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-08-20 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "kdd26",
+  "series": "KDD",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+  "link": "https://kdd2026.kdd.org/",
+  "location": "Jeju, Korea",
+  "dates": "August 9 - 13, 2026",
+  "start": "2026-08-09",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (First Cycle)", "date": "2025-07-24 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (First Cycle)", "date": "2025-07-31 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (Second Cycle)", "date": "2026-02-01 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Second Cycle)", "date": "2026-02-08 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "kdd27",
+  "series": "KDD",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM Knowledge Discovery and Data Mining",
+  "link": "https://kdd2027.kdd.org/",
+  "location": "San Jose, California, USA",
+  "dates": "August 1-5, 2027",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (1st round of 2 total rounds)", "date": "2026-07-19 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (1st round of 2 total rounds)", "date": "2026-07-26 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "kr26",
+  "series": "KR",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Principles of Knowledge Representation and Reasoning",
+  "link": "https://kr.org/KR2026/",
+  "location": "Lisbon, Portugal",
+  "dates": "July 20-23, 2026",
+  "topics": ["ai-general"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-02-08 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-02-13 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "kr27",
+  "series": "KR",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Principles of Knowledge Representation and Reasoning",
+  "link": "https://kr.org/",
+  "location": "Buenos Aires, Argentina",
+  "dates": "TBD",
+  "topics": ["ai-general"],
+  "deadlines": []
+},
+{
+  "id": "log26",
+  "series": "LoG",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Learning on Graphs Conference",
+  "link": "https://logconference.org/",
+  "location": "Northeastern University, Boston, USA",
+  "dates": "November 20-22, 2026",
+  "topics": ["graph-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-08-05 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-08-07 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "lrec26",
+  "series": "LREC",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Language Resources and Evaluation Conference",
+  "link": "https://lrec2026.info/",
+  "location": "Palma, Mallorca, Spain",
+  "dates": "May 11-16, 2026",
+  "start": "2026-05-11",
+  "topics": ["nlp"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "paper", "label": "Paper Submission", "date": "2025-10-24 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "mathai26",
+  "series": "MathAI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The International Conference dedicated to mathematics in artificial intelligence",
+  "link": "https://mathai.club",
+  "location": "Sochi, Russia",
+  "dates": "March, 30 - April 3, 2026",
+  "start": "2026-03-30",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission deadline", "date": "2026-02-17 23:59", "tz": "UTC"},
+    {"type": "paper", "label": "Full paper submission deadline", "date": "2026-03-01 23:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "miccai26",
+  "series": "MICCAI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+  "link": "https://conferences.miccai.org/2026/",
+  "location": "Strasbourg, France",
+  "dates": "September 27 - October 1, 2026",
+  "start": "2026-09-27",
+  "topics": ["medical-imaging", "computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-02-12 23:59", "tz": "UTC-8"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-02-26 23:59", "tz": "UTC-8"}
+  ]
+},
+{
+  "id": "miccai27",
+  "series": "MICCAI",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+  "link": "https://conferences.miccai.org/2027/en/",
+  "location": "Auckland, New Zealand",
+  "dates": "September 26 - October 1, 2027",
+  "topics": ["medical-imaging", "computer-vision"],
+  "deadlines": []
+},
+{
+  "id": "mlsys26",
+  "series": "MLSys",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Conference on Machine Learning and Systems",
+  "link": "https://mlsys.org/Conferences/2026",
+  "location": "Bellevue, Washington, USA",
+  "dates": "May 19-21, 2026",
+  "topics": ["ml-systems"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2025-10-30 20:00", "tz": "UTC"}
+  ]
+},
+{
+  "id": "mlsys27",
+  "series": "MLSys",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "Conference on Machine Learning and Systems",
+  "link": "https://mlsys.org/",
+  "location": "Bellevue, Washington, USA",
+  "dates": "June 21-25, 2027",
+  "topics": ["ml-systems"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-10-30 20:00", "tz": "UTC"}
+  ]
+},
+{
+  "id": "naacl27",
+  "series": "NAACL",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+  "link": "https://2027.naacl.org/",
+  "location": "San Francisco, California, USA",
+  "dates": "June 1-5, 2027",
+  "start": "2027-06-01",
+  "topics": ["nlp"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (ARR Submission)", "date": "2026-10-12 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (NAACL commitment after ARR meta-reviews; reviewed papers only)", "date": "2026-12-23 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "neurips26",
+  "series": "NeurIPS",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Conference on Neural Information Processing Systems",
+  "link": "https://neurips.cc/",
+  "location": "Sydney, Australia",
+  "dates": "December 6-12, 2026",
+  "start": "2026-12-06",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract registration deadline", "date": "2026-05-04 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission deadline", "date": "2026-05-06 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "nsdi26",
+  "series": "NSDI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "link": "https://www.usenix.org/conference/nsdi26",
+  "location": "Renton, WA, USA",
+  "dates": "May 4-6, 2026",
+  "topics": ["communications", "ml-systems"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-04-18 23:59", "tz": "UTC-7"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-04-25 23:59", "tz": "UTC-7"},
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-09-11 23:59", "tz": "UTC-7"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-09-18 23:59", "tz": "UTC-7"}
+  ]
+},
+{
+  "id": "nsdi27",
+  "series": "NSDI",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "link": "https://www.usenix.org/conference/nsdi27",
+  "location": "Providence, RI, USA",
+  "dates": "May 11-13, 2027",
+  "topics": ["communications", "ml-systems"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-04-16 23:59", "tz": "UTC-4"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-04-23 23:59", "tz": "UTC-4"},
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-09-10 23:59", "tz": "UTC-4"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-09-17 23:59", "tz": "UTC-4"}
+  ]
+},
+{
+  "id": "ppsn26",
+  "series": "PPSN",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Parallel Problem Solving From Nature",
+  "link": "https://ppsn2026.disi.unitn.it/",
+  "location": "University of Trento, Trento, Italy",
+  "dates": "August 31-September 2, 2026",
+  "topics": ["optimization"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-03-28 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "probml26",
+  "series": "ProbML",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Symposium on Probabilistic Machine Learning",
+  "link": "https://probml.cc",
+  "location": "Seoul, South Korea",
+  "dates": "July 5, 2026",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-03-20 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "recomb26",
+  "series": "RECOMB",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International Conference on Research inComputational Molecular Biology",
+  "link": "https://recomb.org/recomb2026/",
+  "location": "Thessaloniki, Greece",
+  "dates": "May 26 - 29, 2026",
+  "topics": ["comp-bio"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2025-11-07 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2025-11-20 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "recomb27",
+  "series": "RECOMB",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Research inComputational Molecular Biology",
+  "link": "https://recomb.org/recomb2027/",
+  "location": "Toronto, Canada",
+  "dates": "May 17-20, 2027",
+  "topics": ["comp-bio"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-10-28 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-11-04 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "recsys26",
+  "series": "RecSys",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM Conference on Recommender Systems",
+  "link": "https://recsys.acm.org/recsys26",
+  "location": "Minneapolis, Minnesota, USA",
+  "dates": "September 29 - October 1, 2026",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-04-14 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-04-21 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "recsys27",
+  "series": "RecSys",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM Conference on Recommender Systems",
+  "link": "https://recsys.acm.org/recsys27/",
+  "location": "Honolulu, O‘ahu, Hawaii, USA",
+  "dates": "August 23-27, 2027",
+  "topics": ["data-mining"],
+  "deadlines": []
+},
+{
+  "id": "rlc26",
+  "series": "RLC",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Reinforcement Learning Conference",
+  "link": "https://rl-conference.cc/",
+  "location": "Montreal, Canada",
+  "dates": "August 15 - 18, 2026",
+  "start": "2026-08-15",
+  "topics": ["reinforcement-learning"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-03-01 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-03-05 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "rss26",
+  "series": "RSS",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Robotics Science and Systems",
+  "link": "https://roboticsconference.org",
+  "location": "Sydney, Australia",
+  "dates": "July 13-17, 2026",
+  "start": "2026-07-13",
+  "topics": ["robotics"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-01-23 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-01-30 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "rss27",
+  "series": "RSS",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "Robotics Science and Systems",
+  "link": "https://roboticsconference.org/",
+  "location": "Athens, Greece",
+  "dates": "July 6-11, 2027",
+  "topics": ["robotics"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission (Stage 1: initial 6-page extended abstract submission)", "date": "2026-12-04 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "satml26",
+  "series": "SaTML",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE Conference on Secure and Trustworthy Machine Learning",
+  "link": "https://www.satml.org",
+  "location": "Munich, Germany",
+  "dates": "March 23-25, 2026",
+  "topics": ["trustworthy-ml", "security"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2025-09-24 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "satml27",
+  "series": "SaTML",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE Conference on Secure and Trustworthy Machine Learning",
+  "link": "https://satml.org/",
+  "location": "Reykjavik, Iceland",
+  "dates": "May 2027 (exact dates TBD)",
+  "topics": ["trustworthy-ml", "security"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-09-22 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-09-29 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "sdm26",
+  "series": "SDM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "SIAM International Conference on Data Mining",
+  "link": "https://www.siam.org/conferences-events/siam-conferences/sdm26/",
+  "location": "Salt Lake City, Utah, USA",
+  "dates": "November 19-20, 2026",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2026-04-10 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2026-04-17 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "sgp26",
+  "series": "SGP",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Symposium on Geometry Processing",
+  "link": "https://sgp26.org/",
+  "location": "Bern, Switzerland",
+  "dates": "July 1-3, 2026",
+  "start": "2026-07-01",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Round 1)", "date": "2026-02-02 22:59", "tz": "UTC"},
+    {"type": "paper", "label": "Paper submission (Round 1)", "date": "2026-02-04 22:59", "tz": "UTC"},
+    {"type": "abstract", "label": "Abstract submission (Round 2)", "date": "2026-04-13 22:59", "tz": "UTC"},
+    {"type": "paper", "label": "Paper submission (Round 2)", "date": "2026-04-15 22:59", "tz": "UTC"}
+  ]
+},
+{
+  "id": "sgp27",
+  "series": "SGP",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "Eurographics Symposium on Geometry Processing",
+  "link": "https://igs2027singapore.github.io/",
+  "location": "Singapore",
+  "dates": "June 21-25, 2027",
+  "topics": ["computer-vision"],
+  "deadlines": []
+},
+{
+  "id": "siggraph26",
+  "series": "SIGGRAPH",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Conference on Computer Graphics and Interactive Techniques",
+  "link": "https://s2026.siggraph.org/",
+  "location": "Los Angeles, United States",
+  "dates": "July 19-23, 2026",
+  "start": "2026-07-19",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "paper", "label": "Art Papers deadline", "date": "2026-01-13 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Technical Papers submission form deadline", "date": "2026-01-15 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Technical Papers deadline", "date": "2026-01-22 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Upload and conflicts deadline", "date": "2026-01-23 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Art Gallery deadline", "date": "2026-01-27 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Talks, Production Sessions, Panels, Courses, Educator's Forum, Spatial Storytelling, Immersive Pavilion, Emerging Technologies deadline", "date": "2026-02-10 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Computer Animation Festival deadline", "date": "2026-03-17 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Frontiers deadline", "date": "2026-04-07 22:00", "tz": "UTC"},
+    {"type": "paper", "label": "Posters deadline", "date": "2026-04-21 22:00", "tz": "UTC"}
+  ]
+},
+{
+  "id": "siggraph27",
+  "series": "SIGGRAPH",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM SIGGRAPH Annual Conference",
+  "link": "https://s2027.siggraph.org/",
+  "location": "Anaheim, California",
+  "dates": "August 8 - 12, 2027",
+  "start": "2027-08-08",
+  "topics": ["computer-vision"],
+  "deadlines": []
+},
+{
+  "id": "siggraphasia26",
+  "series": "SIGGRAPH Asia",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM SIGGRAPH Annual Conference in Asia",
+  "link": "https://asia.siggraph.org/2026/",
+  "location": "KLCC, Kuala Lumpur, Malaysia",
+  "dates": "December 1-4, 2026",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Registration / full paper)", "date": "2026-05-05 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Registration / full paper)", "date": "2026-05-12 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "siggraphasia27",
+  "series": "SIGGRAPH Asia",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM SIGGRAPH Annual Conference in Asia",
+  "link": "https://asia.siggraph.org/2027/",
+  "location": "Tokyo International Forum, Tokyo, Japan",
+  "dates": "November 30 - December 3, 2027",
+  "topics": ["computer-vision"],
+  "deadlines": []
+},
+{
+  "id": "sigir26",
+  "series": "SIGIR",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+  "link": "https://sigir2026.org/en-AU",
+  "location": "Melbourne, Australia",
+  "dates": "July 20-24, 2026",
+  "start": "2026-07-20",
+  "topics": ["data-mining", "nlp"],
+  "deadlines": [
+    {"type": "abstract", "label": "Full research paper abstract deadline", "date": "2026-01-15 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Full research paper submission deadline", "date": "2026-01-22 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "sigir27",
+  "series": "SIGIR",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "International Conference on Research on Development in Information Retrieval",
+  "link": "https://sigir2027.org/",
+  "location": "San Jose, California, USA",
+  "dates": "July 18-24, 2027",
+  "topics": ["data-mining", "nlp"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission", "date": "2027-01-14 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission", "date": "2027-01-21 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "slt26",
+  "series": "SLT",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE Spoken Language Technology (SLT) Workshop",
+  "link": "https://attend.ieee.org/slt-2026/",
+  "location": "Palermo, Sicily, Italy",
+  "dates": "December 13-16, 2026",
+  "topics": ["speech-audio"],
+  "cycle": 2,
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (Abstract registration / full paper)", "date": "2026-06-24 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Abstract registration / full paper)", "date": "2026-07-01 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "uai26",
+  "series": "UAI",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "Conference on Uncertainty in Artificial Intelligence",
+  "link": "https://www.auai.org/uai2026/",
+  "location": "Amsterdam, Netherlands",
+  "dates": "August 17-21, 2025",
+  "topics": ["machine-learning"],
+  "deadlines": [
+    {"type": "paper", "label": "Paper submission", "date": "2026-02-25 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "wacv26",
+  "series": "WACV",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+  "link": "https://wacv.thecvf.com/Conferences/2026",
+  "location": "Tucson, Arizona, USA (Hybrid)",
+  "dates": "March 8-10, 2026",
+  "start": "2026-03-06",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (First round)", "date": "2025-07-11 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (First round)", "date": "2025-07-18 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (Second round)", "date": "2025-09-12 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Second round)", "date": "2025-09-19 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "wacv27",
+  "series": "WACV",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+  "link": "https://wacv.thecvf.com/",
+  "location": "Disney Springs, Buena Vista, FL, USA",
+  "dates": "Jan 4 - 8, 2027",
+  "start": "2027-01-04",
+  "topics": ["computer-vision"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (First round)", "date": "2026-06-19 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (First round)", "date": "2026-06-26 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (Second round)", "date": "2026-08-21 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (Second round)", "date": "2026-08-28 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "wsdm26",
+  "series": "WSDM",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "ACM International Conference on Web Search and Data Mining",
+  "link": "https://wsdm-conference.org/2026/",
+  "location": "Boise, United States",
+  "dates": "February 22-26, 2026",
+  "start": "2026-02-22",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (full papers)", "date": "2025-08-07 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (full papers)", "date": "2025-08-14 23:59", "tz": "AoE"},
+    {"type": "abstract", "label": "Abstract submission (short papers)", "date": "2025-09-18 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (short papers)", "date": "2025-09-25 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "wsdm27",
+  "series": "WSDM",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "ACM International Conference on Web Search and Data Mining",
+  "link": "https://www.wsdm-conference.org/2027/",
+  "location": "Hong Kong, Hong Kong",
+  "dates": "February 15-19, 2027",
+  "start": "2027-02-15",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract submission (full papers)", "date": "2026-08-17 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (full papers)", "date": "2026-08-24 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper submission (short papers)", "date": "2026-11-17 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "www26",
+  "series": "WWW",
+  "year": 2026,
+  "kind": "conference",
+  "full_name": "The ACM Web Conference",
+  "link": "https://www2026.thewebconf.org/",
+  "location": "Dubai, UAE",
+  "dates": "April 13-17, 2026",
+  "start": "2026-04-13",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2025-09-30 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2025-10-07 23:59", "tz": "AoE"}
+  ]
+},
+{
+  "id": "www27",
+  "series": "WWW",
+  "year": 2027,
+  "kind": "conference",
+  "full_name": "The ACM Web Conference",
+  "link": "https://www2027.thewebconf.org/",
+  "location": "Dublin, Ireland",
+  "dates": "May 10-14, 2027",
+  "start": "2027-05-10",
+  "topics": ["data-mining"],
+  "deadlines": [
+    {"type": "abstract", "label": "Abstract Submission", "date": "2026-10-18 23:59", "tz": "AoE"},
+    {"type": "paper", "label": "Paper Submission", "date": "2026-10-25 23:59", "tz": "AoE"}
+  ]
+}
+]
