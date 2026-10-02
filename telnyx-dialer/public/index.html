@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Dialer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor/telnyx-webrtc.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <section id="login-view" hidden>
+      <h1>Web Dialer</h1>
+      <form id="login-form">
+        <label>Username <input name="username" autocomplete="username" required></label>
+        <label>Password <input name="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit" class="primary">Sign in</button>
+        <p class="error" id="login-error" role="alert"></p>
+      </form>
+    </section>
+
+    <section id="dialer-view" hidden>
+      <header class="topbar">
+        <span id="who"></span>
+        <button type="button" id="logout" class="link">Sign out</button>
+      </header>
+
+      <p class="status" id="status" role="status" aria-live="polite">Connecting…</p>
+
+      <form id="dial-form">
+        <input id="number" type="tel" inputmode="tel" autocomplete="tel" placeholder="Enter a number" aria-label="Phone number">
+        <div class="keypad" id="keypad">
+          <button type="button" data-key="1">1</button>
+          <button type="button" data-key="2">2<small>ABC</small></button>
+          <button type="button" data-key="3">3<small>DEF</small></button>
+          <button type="button" data-key="4">4<small>GHI</small></button>
+          <button type="button" data-key="5">5<small>JKL</small></button>
+          <button type="button" data-key="6">6<small>MNO</small></button>
+          <button type="button" data-key="7">7<small>PQRS</small></button>
+          <button type="button" data-key="8">8<small>TUV</small></button>
+          <button type="button" data-key="9">9<small>WXYZ</small></button>
+          <button type="button" data-key="*">*</button>
+          <button type="button" data-key="0">0<small>+</small></button>
+          <button type="button" data-key="#">#</button>
+        </div>
+        <div class="actions">
+          <button type="button" id="mute" disabled>Mute</button>
+          <button type="submit" id="call" class="call" disabled>Call</button>
+          <button type="button" id="backspace" aria-label="Delete last digit">⌫</button>
+        </div>
+      </form>
+      <p class="hint" id="hint"></p>
+    </section>
+  </main>
+  <audio id="remote-audio" autoplay></audio>
+</body>
+</html>
