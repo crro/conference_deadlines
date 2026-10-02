@@ -19,7 +19,7 @@ TAXONOMY = ROOT / "data" / "taxonomy.json"
 KINDS = {"conference", "workshop", "challenge"}
 FIELD_ORDER = [
     "id", "series", "year", "kind", "full_name", "link", "location", "dates", "start",
-    "topics", "parent", "cycle", "tentative", "note", "deadlines",
+    "topics", "sponsors", "proceedings", "parent", "cycle", "tentative", "note", "source", "deadlines",
 ]
 REQUIRED = ["id", "series", "year", "kind", "full_name", "topics", "deadlines"]
 DEADLINE_ORDER = ["type", "label", "date", "tz"]
@@ -56,6 +56,8 @@ def validate(entries, taxonomy):
         for t in e.get("topics", []):
             if t not in topics:
                 errors.append(f"{where}: unknown topic '{t}' (see data/taxonomy.json)")
+        if "sponsors" in e and not (isinstance(e["sponsors"], list) and all(isinstance(x, str) and x for x in e["sponsors"])):
+            errors.append(f"{where}: sponsors must be a list of organisation names")
         if "start" in e and not ISO_DAY_RE.match(str(e["start"])):
             errors.append(f"{where}: start must be YYYY-MM-DD")
         if "cycle" in e and e["cycle"] not in (1, 2, 3, 4):
@@ -90,7 +92,7 @@ def canonical(entries):
         e = order(e, FIELD_ORDER)
         deadlines = sorted(e.pop("deadlines", []), key=lambda d: d["date"])
         body = json.dumps(e, ensure_ascii=False, indent=2)[:-2]  # drop closing "\n}"
-        body = re.sub(r'"topics": \[\s*([^\]]*?)\s*\]', lambda m: '"topics": [' + re.sub(r",\s+", ", ", m.group(1)) + "]", body)
+        body = re.sub(r'"(topics|sponsors)": \[\s*([^\]]*?)\s*\]', lambda m: f'"{m.group(1)}": [' + re.sub(r",\s+", ", ", m.group(2)) + "]", body)
         lines = [body + ","]
         if deadlines:
             lines.append('  "deadlines": [')

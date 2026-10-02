@@ -19,7 +19,7 @@
         <label class="search">
           <span class="visually-hidden">Search</span>
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M10.5 3a7.5 7.5 0 0 1 5.96 12.06l4.24 4.24-1.4 1.4-4.24-4.24A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
-          <input id="search" type="search" placeholder="Search venues, e.g. MICCAI, ICASSP, Seoul…" autocomplete="off">
+          <input id="search" type="search" placeholder="Search venues, e.g. MICCAI, ICASSP, IEEE, Seoul…" autocomplete="off">
         </label>
         <p class="clock" id="clock" aria-live="off"></p>
       </div>
@@ -31,6 +31,10 @@
       <section>
         <h2>Deadline type</h2>
         <div class="chips" id="category-chips"></div>
+      </section>
+      <section>
+        <h2>Sponsor / publisher</h2>
+        <div class="chips" id="org-chips"></div>
       </section>
       <section id="topic-sections"></section>
       <section>
@@ -76,7 +80,7 @@
           <span class="badges"></span>
         </div>
         <p class="full-name"></p>
-        <p class="meta"><span class="where"></span><span class="when"></span></p>
+        <p class="meta"><span class="where"></span><span class="when"></span><span class="proc"></span></p>
         <ul class="tags"></ul>
         <details class="timeline">
           <summary>All deadlines</summary>

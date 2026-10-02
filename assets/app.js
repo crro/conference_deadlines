@@ -9,6 +9,7 @@
     q: '',
     topics: new Set(),
     cats: new Set(),
+    orgs: new Set(),
     showEst: true,
     showPast: false,
     sort: 'deadline',
@@ -121,6 +122,8 @@
           const date = shiftDateStr(d.date, shift);
           return {
             ...d,
+            // Extensions and "firm" markers belong to the original cycle, not to a projection.
+            label: shift ? (d.label || '').replace(/\s*\((?:extended|firm|estimated)[^)]*\)/gi, '') : d.label,
             date,
             ts: toEpoch(date, d.tz),
             cat: categoryForEntryDeadline(entry, d),
@@ -185,6 +188,7 @@
         e.series, e.full_name, e.location, e.year, e.dates, e.note,
         ...(e.topics || []).map((t) => topicLabel[t] || t),
         e.parent && editionsById[e.parent] ? editionsById[e.parent].series : '',
+        ...(e.sponsors || []), e.proceedings,
       ].join(' ').toLowerCase();
     }
     return out;
@@ -207,6 +211,11 @@
       if (!card.past && !rel.some((d) => d.ts > now)) return false;
     }
     return true;
+  }
+
+  function matchesOrgs(card) {
+    if (!state.orgs.size) return true;
+    return (card.entry.sponsors || []).some((o) => state.orgs.has(o));
   }
 
   function matchesTopics(card) {
@@ -239,12 +248,24 @@
   }
 
   function renderFilters(now) {
+    const orgCounts = {};
+    for (const c of cards) {
+      if (c.past || !matchesExceptTopics(c, now) || !matchesTopics(c)) continue;
+      for (const o of c.entry.sponsors || []) orgCounts[o] = (orgCounts[o] || 0) + 1;
+    }
+    const orgs = Object.keys(orgCounts)
+      .filter((o) => orgCounts[o] >= 3 || state.orgs.has(o))
+      .sort((a, b) => orgCounts[b] - orgCounts[a] || a.localeCompare(b));
+    $('#org-chips').replaceChildren(
+      ...orgs.map((o) => chip(o, state.orgs.has(o), () => toggleIn(state.orgs, o), orgCounts[o] || 0)),
+    );
+
     const catWrap = $('#category-chips');
     catWrap.replaceChildren(
       ...taxonomy.categories.map((c) => chip(c.label, state.cats.has(c.id), () => toggleIn(state.cats, c.id))),
     );
 
-    const base = cards.filter((c) => !c.past && matchesExceptTopics(c, now));
+    const base = cards.filter((c) => !c.past && matchesExceptTopics(c, now) && matchesOrgs(c));
     const counts = {};
     for (const c of base) for (const t of c.entry.topics || []) counts[t] = (counts[t] || 0) + 1;
 
@@ -265,6 +286,7 @@
     const active = $('#active-filters');
     const pills = [];
     for (const t of state.topics) pills.push(chip(`${topicLabel[t] || t} ✕`, true, () => toggleIn(state.topics, t)));
+    for (const o of state.orgs) pills.push(chip(`${o} ✕`, true, () => toggleIn(state.orgs, o)));
     for (const c of state.cats) {
       const cat = taxonomy.categories.find((x) => x.id === c);
       pills.push(chip(`${cat ? cat.label : c} ✕`, true, () => toggleIn(state.cats, c)));
@@ -300,6 +322,9 @@
     };
     if (e.kind && e.kind !== 'conference') addBadge(e.kind, 'badge-kind');
     if (card.estimated) addBadge('Estimated', 'badge-est', `Projected from the ${card.basedOn} deadlines`);
+    for (const o of e.sponsors || []) {
+      if (o === 'IEEE' || o === 'ACM') addBadge(o, `badge-org badge-${o.toLowerCase()}`, `${o}-sponsored`);
+    }
     if (e.tentative) addBadge('Unconfirmed', 'badge-tentative', 'Date not yet confirmed on the official website');
     if (card.past) addBadge('Closed', '');
 
@@ -311,6 +336,7 @@
     tpl.querySelector('.full-name').textContent = fullName;
     tpl.querySelector('.where').textContent = e.location && e.location !== 'TBA' ? e.location : 'Location TBA';
     tpl.querySelector('.when').textContent = e.dates && e.dates !== 'TBA' ? e.dates : '';
+    tpl.querySelector('.proc').textContent = e.proceedings ? `Proceedings: ${e.proceedings}` : '';
 
     const tags = tpl.querySelector('.tags');
     for (const t of e.topics || []) {
@@ -409,7 +435,7 @@
     tickers = [];
     renderFilters(now);
 
-    const visible = cards.filter((c) => matchesExceptTopics(c, now) && matchesTopics(c));
+    const visible = cards.filter((c) => matchesExceptTopics(c, now) && matchesTopics(c) && matchesOrgs(c));
     const live = sortCards(visible.filter((c) => !c.past), now);
     const past = sortCards(visible.filter((c) => c.past), now, true);
 
@@ -488,6 +514,7 @@
     const p = new URLSearchParams(location.search);
     state.q = (p.get('q') || '').toLowerCase().trim();
     state.topics = new Set((p.get('topics') || '').split(',').filter((t) => topicLabel[t]));
+    state.orgs = new Set((p.get('org') || '').split(',').filter(Boolean));
     state.cats = new Set((p.get('type') || '').split(',').filter((c) => taxonomy.categories.some((x) => x.id === c)));
     state.showPast = p.get('past') === '1';
     state.showEst = p.get('est') !== '0';
@@ -498,6 +525,7 @@
     const p = new URLSearchParams();
     if (state.q) p.set('q', state.q);
     if (state.topics.size) p.set('topics', [...state.topics].join(','));
+    if (state.orgs.size) p.set('org', [...state.orgs].join(','));
     if (state.cats.size) p.set('type', [...state.cats].join(','));
     if (state.showPast) p.set('past', '1');
     if (!state.showEst) p.set('est', '0');
@@ -557,7 +585,7 @@
     $('#show-estimated').addEventListener('change', (ev) => { state.showEst = ev.target.checked; update(); });
     $('#sort').addEventListener('change', (ev) => { state.sort = ev.target.value; update(); });
     $('#reset').addEventListener('click', () => {
-      Object.assign(state, { q: '', topics: new Set(), cats: new Set(), showEst: true, showPast: false, sort: 'deadline' });
+      Object.assign(state, { q: '', topics: new Set(), cats: new Set(), orgs: new Set(), showEst: true, showPast: false, sort: 'deadline' });
       syncControls();
       update();
     });

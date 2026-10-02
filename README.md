@@ -6,6 +6,7 @@ A static website for looking up submission deadlines of machine learning confere
 
 - **Live countdowns** to the next deadline of every venue, shown in the organisers' timezone (AoE, UTC±H) and in your local time.
 - **Topic filters** grouped into *Core ML & AI* and *Applied & Interdisciplinary*, with a live count per topic. Clicking a tag on a card filters by that topic.
+- **Sponsor / publisher filter** (IEEE, ACM, ACL, CVF, …), with an **IEEE** or **ACM** badge on each card and the proceedings venue (IEEE Xplore, ACM DL, PMLR, Springer LNCS, …) shown under the dates.
 - **Deadline-type filters**: papers, workshops (proposals and workshop papers), challenges (proposals and submissions) and tutorials.
 - **Estimated deadlines**: when a venue hasn't announced its next cycle, the site projects it from the last known cycle and marks it **Estimated** with a dashed border. Biennial venues (ICCV, ECCV, …) use `"cycle": 2`.
 - **Recently passed** section (toggle) for deadlines from the last 12 months.
@@ -50,6 +51,8 @@ All data lives in two files:
   "dates": "September 27 - October 1, 2026",
   "start": "2026-09-27",
   "topics": ["medical-imaging", "computer-vision"],
+  "sponsors": ["MICCAI Society"],
+  "proceedings": "Springer LNCS",
   "deadlines": [
     {"type": "abstract", "label": "Abstract submission", "date": "2026-02-12 23:59", "tz": "UTC-8"},
     {"type": "paper", "label": "Paper submission", "date": "2026-02-26 23:59", "tz": "UTC-8"}
@@ -67,12 +70,19 @@ All data lives in two files:
 | `topics` | yes | One or more topic ids from `data/taxonomy.json`. |
 | `deadlines` | yes | May be empty if the edition is announced but has no dates yet. |
 | `link`, `location`, `dates`, `start` | no | `start` is `YYYY-MM-DD` and is used for "sort by conference date". |
+| `sponsors` | no | Organisations that sponsor the venue, e.g. `["IEEE"]`, `["IEEE", "CVF"]`. Drives the sponsor filter. |
+| `proceedings` | no | Where accepted papers are published, e.g. `IEEE Xplore`, `PMLR`. |
+| `source` | no | Where the dates came from (URL). Not shown on the site. |
 | `parent` | no | `id` of the conference a workshop or challenge is co-located with. |
 | `cycle` | no | Years between editions (default 1). Used for estimates. |
 | `tentative` | no | `true` if the dates aren't confirmed on an official site yet. Shows an **Unconfirmed** badge. |
 | `note` | no | Short free-text note shown on the card. |
 
 Deadline `type` is one of `abstract`, `paper`, `workshop-proposal`, `workshop-paper`, `challenge-proposal`, `challenge-submission`, `tutorial-proposal`, `other`. A `paper` deadline on a `workshop` or `challenge` entry is counted under that category. `date` is `YYYY-MM-DD HH:MM` in the given `tz`, which is `AoE`, `UTC` or `UTC±H[:MM]`.
+
+### IEEE venues
+
+A venue is tagged `"sponsors": [..., "IEEE"]` when IEEE (or one of its societies) sponsors or technically co-sponsors it **and** its proceedings are published in IEEE Xplore. The list is curated to venues relevant to ML and the site's applied areas, not all ~2,000 IEEE conferences. To add one, follow the same entry format.
 
 ### Keeping the history
 

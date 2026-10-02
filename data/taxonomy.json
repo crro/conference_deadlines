@@ -4,45 +4,151 @@
       "id": "core",
       "label": "Core ML & AI",
       "topics": [
-        { "id": "machine-learning", "label": "Machine Learning" },
-        { "id": "learning-theory", "label": "Learning Theory" },
-        { "id": "reinforcement-learning", "label": "Reinforcement Learning" },
-        { "id": "computer-vision", "label": "Computer Vision & Graphics" },
-        { "id": "nlp", "label": "NLP & LLMs" },
-        { "id": "speech-audio", "label": "Speech & Audio" },
-        { "id": "data-mining", "label": "Data Mining & IR" },
-        { "id": "graph-learning", "label": "Graph Learning" },
-        { "id": "optimization", "label": "Optimization & Evolutionary" },
-        { "id": "trustworthy-ml", "label": "Trustworthy ML & Fairness" },
-        { "id": "ml-systems", "label": "ML Systems" },
-        { "id": "ai-general", "label": "General AI & Planning" },
-        { "id": "robotics", "label": "Robotics" },
-        { "id": "hci", "label": "Human-Computer Interaction" }
+        {
+          "id": "machine-learning",
+          "label": "Machine Learning"
+        },
+        {
+          "id": "learning-theory",
+          "label": "Learning Theory"
+        },
+        {
+          "id": "reinforcement-learning",
+          "label": "Reinforcement Learning"
+        },
+        {
+          "id": "computer-vision",
+          "label": "Computer Vision & Graphics"
+        },
+        {
+          "id": "nlp",
+          "label": "NLP & LLMs"
+        },
+        {
+          "id": "speech-audio",
+          "label": "Speech & Audio"
+        },
+        {
+          "id": "data-mining",
+          "label": "Data Mining & IR"
+        },
+        {
+          "id": "graph-learning",
+          "label": "Graph Learning"
+        },
+        {
+          "id": "optimization",
+          "label": "Optimization & Evolutionary"
+        },
+        {
+          "id": "trustworthy-ml",
+          "label": "Trustworthy ML & Fairness"
+        },
+        {
+          "id": "ml-systems",
+          "label": "ML Systems"
+        },
+        {
+          "id": "ai-general",
+          "label": "General AI & Planning"
+        },
+        {
+          "id": "robotics",
+          "label": "Robotics"
+        },
+        {
+          "id": "hci",
+          "label": "Human-Computer Interaction"
+        }
       ]
     },
     {
       "id": "applied",
       "label": "Applied & Interdisciplinary",
       "topics": [
-        { "id": "medical-imaging", "label": "Medical Imaging" },
-        { "id": "healthcare", "label": "Health & Clinical ML" },
-        { "id": "comp-bio", "label": "Computational Biology" },
-        { "id": "signal-processing", "label": "Signal Processing" },
-        { "id": "communications", "label": "Communications & Networking" },
-        { "id": "materials-chemistry", "label": "Materials & Chemistry" },
-        { "id": "physical-sciences", "label": "Physical Sciences" },
-        { "id": "engineering-control", "label": "Engineering & Control" },
-        { "id": "earth-climate", "label": "Earth, Climate & Remote Sensing" },
-        { "id": "finance-econ", "label": "Finance & Economics" },
-        { "id": "security", "label": "Security & Privacy" }
+        {
+          "id": "medical-imaging",
+          "label": "Medical Imaging"
+        },
+        {
+          "id": "healthcare",
+          "label": "Health & Clinical ML"
+        },
+        {
+          "id": "comp-bio",
+          "label": "Computational Biology"
+        },
+        {
+          "id": "signal-processing",
+          "label": "Signal Processing"
+        },
+        {
+          "id": "communications",
+          "label": "Communications & Networking"
+        },
+        {
+          "id": "materials-chemistry",
+          "label": "Materials & Chemistry"
+        },
+        {
+          "id": "physical-sciences",
+          "label": "Physical Sciences"
+        },
+        {
+          "id": "engineering-control",
+          "label": "Engineering & Control"
+        },
+        {
+          "id": "earth-climate",
+          "label": "Earth, Climate & Remote Sensing"
+        },
+        {
+          "id": "finance-econ",
+          "label": "Finance & Economics"
+        },
+        {
+          "id": "hardware-eda",
+          "label": "Hardware, Circuits & EDA"
+        },
+        {
+          "id": "security",
+          "label": "Security & Privacy"
+        }
       ]
     }
   ],
   "categories": [
-    { "id": "paper", "label": "Papers", "types": ["abstract", "paper"] },
-    { "id": "workshop", "label": "Workshops", "types": ["workshop-proposal", "workshop-paper"] },
-    { "id": "challenge", "label": "Challenges", "types": ["challenge-proposal", "challenge-submission"] },
-    { "id": "tutorial", "label": "Tutorials", "types": ["tutorial-proposal"] }
+    {
+      "id": "paper",
+      "label": "Papers",
+      "types": [
+        "abstract",
+        "paper"
+      ]
+    },
+    {
+      "id": "workshop",
+      "label": "Workshops",
+      "types": [
+        "workshop-proposal",
+        "workshop-paper"
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "Challenges",
+      "types": [
+        "challenge-proposal",
+        "challenge-submission"
+      ]
+    },
+    {
+      "id": "tutorial",
+      "label": "Tutorials",
+      "types": [
+        "tutorial-proposal"
+      ]
+    }
   ],
   "deadline_types": {
     "abstract": "Abstract",

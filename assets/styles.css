@@ -12,6 +12,8 @@
   --ok: #2f7a4b;
   --est: #7a5ab8;
   --est-soft: #f0eafa;
+  --ieee: #00629b;
+  --ieee-soft: #e1f0f8;
   --radius: 10px;
   --shadow: 0 1px 2px rgb(0 0 0 / 0.04), 0 1px 8px rgb(0 0 0 / 0.04);
   color-scheme: light;
@@ -32,6 +34,8 @@
     --ok: #6fcf97;
     --est: #b9a0ee;
     --est-soft: #2c2540;
+    --ieee: #6cc4f0;
+    --ieee-soft: #15303f;
     --shadow: none;
     color-scheme: dark;
   }
@@ -132,6 +136,8 @@ code { font-size: 0.9em; background: var(--surface-2); padding: 0.1em 0.35em; bo
 }
 .badge-est { background: var(--est-soft); color: var(--est); }
 .badge-kind { background: var(--accent-soft); color: var(--accent); }
+.badge-ieee { background: var(--ieee-soft); color: var(--ieee); }
+.badge-acm { background: var(--surface-2); color: var(--text); }
 .badge-tentative { background: var(--est-soft); color: var(--est); }
 
 .full-name { margin: 2px 0 4px; color: var(--muted); }
@@ -139,6 +145,7 @@ code { font-size: 0.9em; background: var(--surface-2); padding: 0.1em 0.35em; bo
 .meta span:empty { display: none; }
 .meta .where::before { content: "📍 "; }
 .meta .when::before { content: "🗓 "; }
+.meta .proc { color: var(--muted); }
 
 .tags { list-style: none; padding: 0; margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 4px; }
 .tags button {
